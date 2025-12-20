@@ -1,0 +1,240 @@
+(footprint "VS-8EWL06FN-M3"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "TO252_FFW (2018)")
+	(tags "Diode")
+	(property "Reference" "D**"
+		(at 0 -0.54 0)
+		(layer "F.SilkS")
+		(uuid "b2be10b9-fd2b-4885-91e9-dca769abf57e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "VS-8EWL06FN-M3"
+		(at 0 -8.89 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "ef2d0e29-a539-43cd-8b69-7786dc8227c6")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b0c0d2ad-d9b8-4ec8-99aa-633b79bf3729")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "36d47569-2ac4-46fb-8cdb-dbcd72c1bac9")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bcdfec0b-5368-4dff-bad4-0b08047d3105")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -3.35 0.6)
+		(end 3.35 0.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5a548da9-48eb-40de-bb53-8066103ccbf1")
+	)
+	(fp_line
+		(start -2.4 5.5)
+		(end -2.4 5.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "cd3420d0-77a8-405d-98b4-faee02dce6f9")
+	)
+	(fp_line
+		(start -2.2 5.5)
+		(end -2.2 5.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "35dde64d-62b5-46b2-bcb7-2aefb4b97c27")
+	)
+	(fp_arc
+		(start -2.4 5.5)
+		(mid -2.3 5.4)
+		(end -2.2 5.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2e12425c-8df3-4575-93b7-06fdd8a01dcf")
+	)
+	(fp_arc
+		(start -2.2 5.5)
+		(mid -2.3 5.6)
+		(end -2.4 5.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "05368277-62dd-42cb-be23-9b9d7695ce82")
+	)
+	(fp_line
+		(start -4.5 -7.68)
+		(end 4.5 -7.68)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "e2e2e91d-9264-4ec4-9e67-74bda767a828")
+	)
+	(fp_line
+		(start -4.5 6.6)
+		(end -4.5 -7.68)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "775c62c3-dc0e-444b-b5a5-9b3173511105")
+	)
+	(fp_line
+		(start 4.5 -7.68)
+		(end 4.5 6.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "437329d4-5745-4b5b-8213-cca87e9e4379")
+	)
+	(fp_line
+		(start 4.5 6.6)
+		(end -4.5 6.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "7b8ab46d-bc80-48e5-b9fc-10e50ceb7080")
+	)
+	(fp_line
+		(start -3.35 -5.6)
+		(end 3.35 -5.6)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e469ab3d-42de-4148-a667-34ca860703ec")
+	)
+	(fp_line
+		(start -3.35 0.6)
+		(end -3.35 -5.6)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "13fdb92d-ea5e-4ba0-86b1-a5a494b8a080")
+	)
+	(fp_line
+		(start 3.35 -5.6)
+		(end 3.35 0.6)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "845ba493-dbd4-4f78-82df-aca5a8d74d41")
+	)
+	(fp_line
+		(start 3.35 0.6)
+		(end -3.35 0.6)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "16e64fd6-6bfa-449c-9a63-8a313dcc928e")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "531f50c2-e3c4-4004-9feb-e59920a0dca1")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -2.3 3.72)
+		(size 1.5 2.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "b050ac2f-61b0-46fe-b733-e25a39e83f6a")
+	)
+	(pad "2" smd rect
+		(at 0 -3.18 90)
+		(size 7 7)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "94836578-c64e-4216-a12a-ea92cb624d38")
+	)
+	(pad "3" smd rect
+		(at 2.3 3.72)
+		(size 1.5 2.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "ecc57dc2-e77a-447e-8d0a-11d9dcca3c56")
+	)
+	(model "C:\\Users\\elesb\\Downloads\\SamacSys_Parts.3dshapes\\SBR6100CTLQ-13.stp"
+		(offset
+			(xyz 0 1.369999984 1.279999952)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

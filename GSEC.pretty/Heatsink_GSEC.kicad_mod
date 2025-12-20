@@ -1,0 +1,143 @@
+(footprint "Heatsink_GSEC"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Heatsink, Sheet type, 50x7mm, 2 fixations (solder),")
+	(tags "Heatsink sheet")
+	(property "Reference" "REF**"
+		(at -13.97 -3.81 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "8485a923-3814-4a7a-8008-c60ebd3b8796")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Heatsink_GSEC"
+		(at 1.19 9.08 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "72a128a7-a090-4d14-8e56-16f39d81cba9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "be7201f2-7033-4cd1-8017-35cd8635f10e")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2e71a5b3-aa67-4252-9a7b-77a20392c6a7")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "923227a1-9d8d-474f-9b66-8290e53cca5e")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(solder_mask_margin 0.2)
+	(attr through_hole)
+	(fp_rect
+		(start -15.75 -2.65)
+		(end 13.42 2.05)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "1ef8cdaa-657f-44ac-a35e-4e69444bec35")
+	)
+	(fp_rect
+		(start -6.61 2.05)
+		(end 3.97 12.86)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "73a4b4d5-e9de-41fd-9dd9-2090af8b2c61")
+	)
+	(fp_rect
+		(start 13.42 -2.65)
+		(end -15.73 12.87)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "826281f1-6658-40fe-bedd-fc9e4e30c228")
+	)
+	(fp_poly
+		(pts
+			(xy -15.74 -2.66) (xy 13.42 -2.65) (xy 13.42 12.87) (xy 3.97 12.87) (xy 3.97 2.05) (xy -6.61 2.05)
+			(xy -6.61 12.88) (xy -15.74 12.85)
+		)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "6f057b33-afa9-4ee4-a502-ebb6114f5a95")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0.34 11.74 0)
+		(layer "F.Fab")
+		(uuid "f53abe2d-54b2-43c0-a395-267b438b506d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at -10.35 -0.05)
+		(size 3 3)
+		(drill 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "079a8f94-84da-490b-b6f5-26dbd1554717")
+	)
+	(pad "2" thru_hole circle
+		(at 7.71 -0.1)
+		(size 3 3)
+		(drill 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "e6532eb0-ee5f-485b-b268-b4ec0d6a420b")
+	)
+)
