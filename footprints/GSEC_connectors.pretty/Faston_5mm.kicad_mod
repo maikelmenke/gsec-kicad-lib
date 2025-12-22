@@ -1,0 +1,217 @@
+(footprint "Faston_5mm"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "1742188-1 (1)")
+	(tags "Connector")
+	(property "Reference" "J**"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "74c542b2-fae8-4dc9-a097-86045fd06943")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "Faston_5mm"
+		(at -0.508 -3.81 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "4daab182-34c0-4681-b9c0-b9021bd79ad4")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d7119587-ac45-4415-95ef-195a5039c864")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "51e54ca8-ea03-4d8f-b8cf-3de0cbdcebe3")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -3.96 -1.54)
+		(end 3.96 -1.54)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2d2b5456-833a-4ce8-a108-9bfe892120ba")
+	)
+	(fp_line
+		(start -3.96 1.54)
+		(end -3.96 -1.54)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9be7377e-db41-4bfc-83fe-722ded1063e7")
+	)
+	(fp_line
+		(start 3.96 -1.54)
+		(end 3.96 1.54)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "feb9ed05-4df5-41ac-b083-98fbeac8eb85")
+	)
+	(fp_line
+		(start 3.96 1.54)
+		(end -3.96 1.54)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "96831300-5be5-4dbf-ac05-bae049a21b84")
+	)
+	(fp_line
+		(start -4.96 -2.54)
+		(end 4.96 -2.54)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "4a1417ff-a935-465a-8620-6d0fe32883c1")
+	)
+	(fp_line
+		(start -4.96 2.54)
+		(end -4.96 -2.54)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "9e9ca9e7-830c-4be2-83d6-62eb5e0cb26f")
+	)
+	(fp_line
+		(start 4.96 -2.54)
+		(end 4.96 2.54)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "6743df36-da10-45a7-ad28-fd1b65dc31ed")
+	)
+	(fp_line
+		(start 4.96 2.54)
+		(end -4.96 2.54)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "7e1154e9-c52b-41b5-bd22-5aa7247c8827")
+	)
+	(fp_line
+		(start -3.96 -1.54)
+		(end 3.96 -1.54)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c1450b22-8a70-468a-a6ca-0791bd226f1e")
+	)
+	(fp_line
+		(start -3.96 1.54)
+		(end -3.96 -1.54)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0880bc92-fed9-4bb2-a0ea-c1cc7cb62b34")
+	)
+	(fp_line
+		(start 3.96 -1.54)
+		(end 3.96 1.54)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "da28a693-e698-42c5-81f8-821321576d3e")
+	)
+	(fp_line
+		(start 3.96 1.54)
+		(end -3.96 1.54)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "fee01e82-b229-41a6-bb5f-38fd2319a9a1")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 3.302 0)
+		(layer "F.Fab")
+		(uuid "9c72b1e7-f850-4ba6-84be-ff8a81017827")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" thru_hole oval
+		(at -2.54 0)
+		(size 2.7 2.5)
+		(drill oval 1.4 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "cacbc595-8fd4-47a0-9ad3-622585dde115")
+	)
+	(pad "2" thru_hole oval
+		(at 2.54 0)
+		(size 2.7 2.5)
+		(drill oval 1.4 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "0970f5de-7cbd-4776-ab0a-f3f793b8a6d4")
+	)
+	(embedded_fonts no)
+	(model "${GSEC_3DMODEL_DIR}/Connectors/Faston PCB TAB 4_8x0_8x13_5.step"
+		(offset
+			(xyz 0 0.45 6.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)

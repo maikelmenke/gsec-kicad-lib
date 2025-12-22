@@ -1,0 +1,156 @@
+(footprint "EFD_20_10_07"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 7.5 2.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "4745966f-7447-49ee-b3f5-58e1ac41015e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "EFD_20_10_07"
+		(at 10 5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "78ceedcb-6def-411c-998d-2a9611c74ba2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c4cbe98e-98a9-4474-b2eb-ec2f84c1f3e4")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8c912424-dd59-4ed2-8184-7fd9b07338ee")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -1.5 -2.5)
+		(end 19 17.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "79b21ed9-3a42-4581-8533-7049c46bc7c2")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 10 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "c0ae9c18-f38d-4869-89fc-5b13a59197b6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 1.6 1.6)
+		(drill 0.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "7ec9a078-fab9-4d1d-8e8a-b678710e0153")
+	)
+	(pad "1" thru_hole circle
+		(at 0 5)
+		(size 1.6 1.6)
+		(drill 0.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "a81dcb2a-0f0e-4de3-8b66-3427b438cf1c")
+	)
+	(pad "1" thru_hole circle
+		(at 0 10)
+		(size 1.6 1.6)
+		(drill 0.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "2a2a84a7-4959-494a-a207-a2486895fabc")
+	)
+	(pad "1" thru_hole circle
+		(at 0 15)
+		(size 1.6 1.6)
+		(drill 0.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "ec79bc30-ac02-47d6-927b-95a665d75b5a")
+	)
+	(pad "2" thru_hole circle
+		(at 17.5 0)
+		(size 1.6 1.6)
+		(drill 0.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "a4b52741-8214-42b3-8f19-af55302930bc")
+	)
+	(pad "2" thru_hole circle
+		(at 17.5 5)
+		(size 1.6 1.6)
+		(drill 0.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "6a15a7e0-27b9-4c6e-b7ff-dd31e51c4b38")
+	)
+	(pad "2" thru_hole circle
+		(at 17.5 10)
+		(size 1.6 1.6)
+		(drill 0.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "90d87fc1-508e-44ca-8482-8b743eafb82b")
+	)
+	(pad "2" thru_hole circle
+		(at 17.5 15)
+		(size 1.6 1.6)
+		(drill 0.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "3b210975-6bf5-4409-8a51-27b31b97f2fd")
+	)
+	(embedded_fonts no)
+	(model "${GSEC_3DMODEL_DIR}/Magnetic-cores/EFD20-1.step"
+		(offset
+			(xyz 9 -7.5 4.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 -90)
+		)
+	)
+)
