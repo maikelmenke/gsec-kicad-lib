@@ -1,0 +1,124 @@
+(footprint "EE_30_15_07_PIN-1-2-3-4_Pacifique"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "80651670-bed0-4529-b858-684fbfaf54f1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "EE_30_15_07"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "d476b394-3ffa-47ff-8b4e-6df5d4278713")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "addc3f1d-4369-4c2d-a99e-bdd299721fe3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e6e7ef72-72fc-4f77-b941-fc8be3f088d3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -16 -16)
+		(end 16 16)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "07ec5480-4800-46a0-8da4-d2b9d4a4385f")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "fa0e7063-89de-4af8-89db-937eb7f3328e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at -12 -13)
+		(size 2 2)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "d193018e-bee5-42cc-b967-e47561fd98ba")
+	)
+	(pad "2" thru_hole circle
+		(at 12 -13)
+		(size 2 2)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "6a6b7746-f5be-4910-a875-0d2617b0b736")
+	)
+	(pad "3" thru_hole circle
+		(at -12 13)
+		(size 2 2)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "a2f86172-0d0a-42c2-83a1-a378e46b496d")
+	)
+	(pad "4" thru_hole circle
+		(at 12 13)
+		(size 2 2)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "9f534c15-6ac5-4b8d-a99a-8342daa00708")
+	)
+	(embedded_fonts no)
+	(model "${GSEC_3DMODEL_DIR}/Magnetic-cores/EFD25(5+5).STEP"
+		(offset
+			(xyz 0 0 -2)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 -90)
+		)
+	)
+)
